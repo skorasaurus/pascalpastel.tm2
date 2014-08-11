@@ -1,0 +1,30 @@
+_prefs: 
+  baselayer: ''
+  mapid: skorasaurus.5eb85050
+  saveCenter: true
+_properties: 
+  bridge: 
+    "group-by": layer
+attribution: Map data © OpenStreetMap contributors
+bounds: 
+  - -180
+  - -85.0511
+  - 180
+  - 85.0511
+center: 
+  - -81.68901443481445
+  - 41.49930498349469
+  - 15
+description: 'a muted background tile layer for a basemap, using pastels; minimal POI and place labels; with Road labels. '
+format: "png8:m=h"
+interactivity_layer: ''
+layers: null
+maxzoom: 21
+minzoom: 13
+name: pastel_pascal
+source: "mapbox:///mapbox.mapbox-streets-v42-dev"
+styles: 
+  - style.mss
+  - road.mss
+  - labels.mss
+template: ''
