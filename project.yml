@@ -12,9 +12,9 @@ bounds:
   - 180
   - 85.0511
 center: 
-  - -81.68901443481445
-  - 41.49930498349469
-  - 15
+  - -81.68805956840515
+  - 41.49788670055953
+  - 17
 description: 'a muted background tile layer for a basemap, using pastels; minimal POI and place labels; with Road labels. '
 format: "png8:m=h"
 interactivity_layer: ''
@@ -22,7 +22,7 @@ layers: null
 maxzoom: 21
 minzoom: 13
 name: pastel_pascal
-source: "mapbox:///mapbox.mapbox-streets-v42-dev"
+source: "mapbox:///mapbox.mapbox-streets-v5"
 styles: 
   - style.mss
   - road.mss

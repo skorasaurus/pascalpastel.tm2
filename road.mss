@@ -21,7 +21,7 @@
   ::case[zoom>=6]['mapnik::geometry_type'=2] {
     [class='motorway'] {
       line-join:round;
-      line-color: mix(@motorway, #800, 99);
+      line-color: mix(@motorway, #800, 75);
       #road { line-cap: round; }
       #tunnel { line-dasharray:3,2; }
       [zoom>=6]  { line-width:0.4; }
@@ -45,7 +45,7 @@
     }
     [class='main'] {
       line-join:round;
-      line-color: mix(@main, #800, 75);
+      line-color: mix(@main, #800, 85);
       #road { line-cap: round; }
       #tunnel { line-dasharray:3,2; }
       [zoom>=6] { line-width:0.2; }
