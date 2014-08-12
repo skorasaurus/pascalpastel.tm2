@@ -5,13 +5,13 @@
 <Parameters>
   <Parameter name="attribution"><![CDATA[Map data © OpenStreetMap contributors]]></Parameter>
   <Parameter name="bounds">-180,-85.0511,180,85.0511</Parameter>
-  <Parameter name="center">-81.68901443481445,41.49930498349469,15</Parameter>
+  <Parameter name="center">-81.68879985809326,41.493800425658975,16</Parameter>
   <Parameter name="description"><![CDATA[a muted background tile layer for a basemap, using pastels; minimal POI and place labels; with Road labels. ]]></Parameter>
   <Parameter name="format">png8:m=h</Parameter>
   <Parameter name="maxzoom">21</Parameter>
   <Parameter name="minzoom">13</Parameter>
   <Parameter name="name"><![CDATA[pastel_pascal]]></Parameter>
-  <Parameter name="source"><![CDATA[mapbox:///mapbox.mapbox-streets-v42-dev]]></Parameter>
+  <Parameter name="source"><![CDATA[mapbox:///mapbox.mapbox-streets-v5]]></Parameter>
 </Parameters>
 
 <FontSet name="fontset-0">
