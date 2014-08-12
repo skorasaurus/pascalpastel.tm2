@@ -211,6 +211,8 @@
 }
 
 #road_label {
+  
+  [class!='motorway'] {
   // You need to use [name] for road labels if you want English street
   // prefixes and suffixes to be abbreviated. Translated labels do not
   // have abbreviations.
@@ -223,6 +225,7 @@
   text-halo-rasterizer: fast;
   text-size: 12;
   [zoom>=15] { text-size: 13; }
+  }
 }
 
 
