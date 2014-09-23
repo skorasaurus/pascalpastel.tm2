@@ -212,7 +212,10 @@
 
 #road_label {
   
-  [class!='motorway'] {
+  [class='main'][zoom>=13],
+  [class='street'][zoom>=16],
+  [class='service'][zoom>=17]
+     {
   // You need to use [name] for road labels if you want English street
   // prefixes and suffixes to be abbreviated. Translated labels do not
   // have abbreviations.
@@ -223,11 +226,10 @@
   text-halo-fill: fadeout(#fff, 50%);
   text-halo-radius: 1;
   text-halo-rasterizer: fast;
-  text-size: 12;
+  text-size: 12; 
   [zoom>=15] { text-size: 13; }
   }
-}
-
+ }
 
 // ---------------------------------------------------------------------
 // Water

@@ -10,7 +10,7 @@
 @land: #F8FDF0;
 // @land: #C7AEC2;
 
-@water: #a0c8f0;
+@water: hsla(203, 100%, 80%, 1);
 
 Map {
   background-color:@land;
@@ -50,6 +50,7 @@ Map {
 
 #water {
   polygon-fill: @water - #111;
+  polygon-opacity: .7;
   // Map tiles are 256 pixels by 256 pixels wide, so the height 
   // and width of tiling pattern images must be factors of 256. 
   polygon-pattern-file: url(pattern/wave.png);
@@ -68,6 +69,7 @@ Map {
     image-filters: agg-stack-blur(1,1);
     polygon-geometry-transform: translate(0,1);
     polygon-clip: false;
+    
   }
 }
 
