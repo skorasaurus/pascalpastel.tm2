@@ -12,9 +12,9 @@ bounds:
   - 180
   - 85.0511
 center: 
-  - -81.6587
-  - 41.4952
-  - 16
+  - -81.6901
+  - 41.4994
+  - 18
 description: 'a muted background tile layer for a basemap, using pastels; minimal POI and place labels; with Road labels. '
 format: "png8:m=h"
 interactivity_layer: ''

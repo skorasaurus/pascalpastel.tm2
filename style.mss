@@ -124,9 +124,10 @@ Map {
 // Seperate attachments are used to draw buildings with depth
 // to make them more prominent at high zoom levels
 #building [zoom>=18]{
-::wall { polygon-fill:mix(@land, #000, 85); }
+// ::wall { polygon-fill:mix(@land, #000, 85); }
 ::roof {
-  polygon-fill: darken(@land, 5%);
+  polygon-fill: #C7AEC2;
+  opacity: 0.3;  
   polygon-geometry-transform:translate(-1,-1.5);
   polygon-clip:false;  
   line-width: 0.5;
